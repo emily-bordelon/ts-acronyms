@@ -30,9 +30,4 @@ public class AcronymController {
         return acronymService.findLyrics(acronym);
     }
 
-    @PostMapping("test/{acronym}")
-    public String test(@PathVariable("acronym") String acronym) {
-        return null; //acronymService.findMatch(acronym);
-    }
-
 }
