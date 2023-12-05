@@ -20,7 +20,7 @@ jobs:
 
       - name: Install dependencies and build React app
         run: |
-          cd frontend
+          cd src/frontend
           npm install
           npm run build
 
@@ -38,7 +38,7 @@ jobs:
         run: |
           rm -rf gh-pages
           mkdir gh-pages
-          cp -r frontend/build/* gh-pages/
+          cp -r src/frontend/build/* gh-pages/
           cp target/*.jar gh-pages/
           cd gh-pages
           git init
