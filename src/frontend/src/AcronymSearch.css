@@ -1,0 +1,157 @@
+/* * {
+    border: 1px solid blue;
+} */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: rgb(25, 25, 130);
+    background-color: aliceblue;
+  }
+  
+  form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    justify-content: space-around; 
+  }
+  
+  input {
+    padding: 8px;
+    margin-top: 8px;
+  }
+  
+  button {
+    padding: 8px;
+  }
+  
+  label {
+    display: flex;
+    flex-direction: column;
+    font-size: x-large;
+  }
+
+  li {
+    list-style-type: none;
+    margin-left: -32px;
+  }
+
+  .eras-container {
+    display: flex;
+    margin-bottom: 22px;
+    /* height: 200px;
+    width: 100px; */
+  }
+
+  .eras-column {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .eras-square {
+    width: 60px;
+    height: 60px;
+  }
+
+  .left-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 22px;
+  }
+
+  .acronym-search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .search-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    margin-right: 0px; /* Add some spacing between search and result container */
+    width: 188px;
+   
+  }
+  
+  .acronym-search-form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    margin-bottom: 0px; /* Add some spacing between form and result container */
+  }
+  
+  .result-container {
+    height: 348px;
+    width: 200px;
+    /* border: 1px solid #ccc; */
+    background-color: rgb(233, 208, 244);
+    border-radius: 4px;
+    padding: 8px 28px 28px 28px;
+  }
+
+  .results-list {
+    max-height: 260px;
+    overflow: auto;
+    margin-top: -10px;
+  }
+
+  .matches-heading {
+    padding: 14px 0px;
+    font-size: x-large;
+    margin-bottom: 13px;
+  }
+
+
+#square1 {
+    background-color: rgb(120, 224, 120);
+}
+
+#square2 {
+    background-color: rgb(171, 37, 37);
+}
+
+#square3 {
+    background-color: rgb(59, 59, 59);
+}
+
+#square4 {
+    background-color: rgb(126, 126, 126);
+}
+
+#square5 {
+    background-color: rgb(231, 231, 80);
+}
+
+#square6, #square7, #square8 {
+    background-color: rgb(225, 225, 225);
+    font-size: x-large;
+    text-align: center;
+}
+
+#square9 {
+    background-color: rgb(228, 110, 228);
+}
+
+#square10 {
+    background-color: rgb(148, 219, 243);
+}
+
+#square11 {
+    background-color: rgb(243, 161, 213);
+}
+
+#square12 {
+    background-color: rgb(215, 215, 169);
+}
+  
