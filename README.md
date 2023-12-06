@@ -10,9 +10,9 @@ My directory is set up as a typical Spring Boot directory. The src folder contai
 
 The main folder contains the Java/Spring Boot code and resources. In the resources folder, there is an application.properties file that can be used to configure properties such as the credentials for a database. To access the neccessary data, I chose to use a CSV file that another Swiftie created for other developers to use (linked above, credit to GitHub user shaynak). This file contains three columns, all being String data types: song titles, the associated album names, and the lyrics of each song. This CSV file is also in my main/resources folder.
 
-The actual Java and Spring Boot code is in this filepath of the main folder: main/java/com/atwtmvtvftv/acronyms. This is the package name of the code. This /acronyms folder has the following subfolders: config, controller, entity, repository, service, and util. The core Spring Boot application file is in the /acronyms folder (not in a subfolder) titles AcronymsApplication.java. This file runs the application and uses the bean @SpringBootApplication.
+The actual Java and Spring Boot code is in this filepath of the main folder: main/java/com/atwtmvtvftv/acronyms. This is the package name of the code. This /acronyms folder has the following relevant subfolders: config, controller, and service. The core Spring Boot application file is in the /acronyms folder (not in a subfolder) titles AcronymsApplication.java. This file runs the application and uses the bean @SpringBootApplication.
 
-The cors folder contains a file called CorsConfig.java. The purpose of this Java class is to allow my React frontend access to my Spring Boot backend.
+The config folder contains a file called CorsConfig.java. The purpose of this Java class is to allow my React frontend access to my Spring Boot backend.
 
 The controller folder contains three controller classes. The HomeContorller class allows my frontend and backend to interact. The ApiController is not currently in use. At the start of this final project, I set up an ApiController class (and an ApiService class) to make calls to an external API of Taylor Swift's song data that another Swiftie developer created. While it did work well, I've since switched to the CSV file, because the API was missing about 50 songs. The AcronymController Java class is how the frontend makes requests to the backend. 
 
@@ -28,10 +28,7 @@ For the React frontend, the index.js file renders an AcronymSearch component. Th
 
 I used CSS to style the frontend React app. I created a grid out of divs that's inspired by Taylor Swift's Eras Tour poster. It's a 3x4 grid that represents the colors of each of her eras. And I chose the colors of the app based on this aesthetic. 
 
-I plan to add more features to my full stack application in future iterations. For now, the list of acronym matches do not give any further details, such as which song and album contain the found lyrics. For my first iteration, this was an intentional choice. There is a culture of Easter-egg hunting and sleuthing/investigating among the Swiftie fandom. So the choice to offer only the necessary information (just the lyric excerpt represented by the given acronym) gives the fan the opportunity to then guess which song the lyric is from. It essentially offers a hint and allows them to continue sleuthing on their own. However for future iterations, I would like to add the option to click on the lyric to reveal more information only if they choose to view it.  
-
-
-
+I plan to add more features to my full stack application in future iterations. For now, the list of acronym matches do not give any further details, such as which song and album contain the found lyrics. For my first iteration, this was an intentional choice. There is a culture of Easter-egg hunting and sleuthing/investigating among the Swiftie fandom. So the choice to offer only the necessary information (just the lyric excerpt represented by the given acronym) gives the fan the opportunity to then guess which song the lyric is from. It essentially offers a hint and allows them to continue sleuthing on their own. However for future iterations, I would like to add the option to click on the lyric to reveal more information only if they choose to view it. There are many programs that already decode acronyms that represent Taylor Swift song titles, so I have not included that feature yet in my program. I've started writing the logic for it and have it commented out for now to be finished in the next iteration.
 
 
 Song and lyric data from: https://github.com/shaynak/taylor-swift-lyrics/
