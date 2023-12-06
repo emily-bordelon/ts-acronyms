@@ -1,5 +1,5 @@
-# THE TAYLOR SWIFT LYRIC ACRONYM DECODER
-#### Video Demo:  <URL HERE>
+# THE TAYLOR SWIFT LYRIC DECODER
+#### Video Demo:  https://youtu.be/-wOtd9l-SrA
 #### Description:
 
 I created a full stack web application that can decipher a given acronym into any matches found in Taylor Swift's lyrics. This year, Taylor Swift has embarked on an international stadium tour titled The Eras Tour. Taylor's fans, known as Swifties, have started a tradition of making and bringing beaded friendship bracelets to the concerts to exchange with other fans. The bracelets typically use letter beads to spell out album titles, song titles, pieces of Taylor Swift lore, and acronyms. There are currently many programs that decode song acronyms into the correct song title. However many Swifties have included acronyms of their favorite lyrics on the bracelets. This can be challenging for the bracelet receiver to decode, because it involves scanning the lyrics of over 200 songs to find a match, if you aren't lucky enough to figure it out on your own. For example, "IWBYILMF" stands for "I wanna brainwash you into loving me forever" from the song "Paris" off of Taylor's 2022 album Midnights (3am Version). I've seen many fans online this year asking for help with decoding acronyms on bracelets they received, which gave me the idea for this program.
